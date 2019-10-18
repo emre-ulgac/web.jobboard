@@ -1,0 +1,162 @@
+/*Main Color*/
+@main-color: #42adb6;
+@mobile-color: #170171;
+@fashion-color: #e42800;
+@travel-color: #bbd93a;
+@tech-color: #f5c531;
+/*//*/
+.color-text-link a:hover {
+  color: @main-color;
+}
+.main-color {
+  color: @main-color;
+}
+.main-bg {
+  transition: all 0.5s ease-out 0s;
+  background-color: @main-color;
+  &:hover {
+    background-color: darken(@main-color, 10%);    
+  }
+}
+.main-nav>span {
+  color: @main-color;
+}
+.main-nav>ul>li.current-menu-item>a, .main-nav>ul>li:hover>a {
+  color: #fff;
+  background-color: @main-color;
+}
+.box-search:hover span {
+  color: #fff;
+  background-color: @tech-color;
+}
+.right-menu ul li a:hover i {
+  color: #fff;
+  background-color: @tech-color;
+  border-color: @tech-color;
+}
+.university-bg {
+  background-color: @main-color;
+}
+.sport-bg {
+	background-color: @mobile-color;
+}
+.mobile-color {
+  color: @mobile-color;
+}
+.mobile-border {
+  border-color: @mobile-color;
+}
+.trend-bg {
+	background-color: @fashion-color;
+}
+.cuarsc-bg {
+	background-color: @travel-color;
+}
+.travel-color {
+  color: @travel-color;
+}
+.travel-border {
+  border-color: @travel-color !important;
+}
+.job-bg {
+	background-color: @tech-color;
+}
+.type-icon i:before {
+  box-shadow: 0 0 0 0 @fashion-color inset;  
+  -webkit-box-shadow: 0 0 0 0 @fashion-color inset;
+}
+.home-cat-thumb:hover .type-icon i:before {
+  background-color: transparent;
+  box-shadow: 0 0 0 1.5em @fashion-color inset;
+}
+
+
+
+// list cat button
+.list-cat-btn ul li a {
+  &.university-bg:hover {
+    background-color: darken(@main-color, 10%);        
+  }
+  &.sport-bg:hover {
+    background-color: darken(@mobile-color, 10%);
+  }
+  &.trend-bg:hover {
+    background-color: darken(@fashion-color, 10%);
+  }
+  &.cuarsc-bg:hover {
+    background-color: darken(@travel-color, 10%);
+  }
+  &.job-bg:hover {
+    background-color: darken(@tech-color, 10%);
+  }
+}
+
+// Social icon background
+.ion-social-facebook,.follow .fa-facebook {
+  background-color: #4c66a3;
+}
+.ion-social-twitter,.follow .fa-twitter {
+  background-color: #59c8ff;
+}
+.ion-social-pinterest,.follow .fa-pinterest {
+  background-color: #cb2027;
+}
+.ion-social-instagram,.follow .fa-instagram {
+  background-color: #517fa4;
+}
+.ion-social-vimeo {
+  background-color: #82b440;
+}
+.ion-social-googleplus {
+  background-color: #d73d32;
+}
+.ion-social-rss {
+  background-color: #ffba00;
+}
+.ion-social-linkedin {
+  background-color: #092975;
+}
+
+// Single share
+.single-share {
+  a {
+    color: #fff;
+  }
+} 
+
+.world-head a:hover {
+  background-color: darken(@main-color, 10%); 
+}
+blockquote {
+  border-left: 4px solid #42adb6;
+  color: #1b2b3a;
+}
+.post-detail {
+  color: rgba(27, 43, 58, 0.7);
+}
+.comment-respond form input[type=submit] {
+  color: #fff;
+  background-color: @main-color;
+  &:hover {
+    background-color: darken(@main-color, 10%);
+  }
+}
+
+//Breaking news hover 
+.business .breaking-news .carousel ul li a:hover {
+  color: @main-color;
+}
+.mobile .breaking-news .carousel ul li a:hover {
+  color: @mobile-color;
+}
+.fashion .breaking-news .carousel ul li a:hover {
+  color: @fashion-color;
+}
+.travel .breaking-news .carousel ul li a:hover {
+  color: @travel-color;
+}
+.tech, .bottom-header {
+  .breaking-news .carousel ul li a:hover {
+    color: @tech-color;
+  }
+}
