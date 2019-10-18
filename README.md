@@ -1,7 +1,9 @@
 # web.jobboard
-Kullanılan dil: Php 
-Kullanılan Framework: Laravel
-İş ilan sisteminin client tarafı.
+Kullanılan dil: Php  <br>
+Kullanılan Framework: Laravel <br>
+İş ilan sisteminin client tarafı. <br>
+<br>
+Server side api url :https://github.com/emre-ulgac/api.jobboard<br>
 
 Web uygulaması iş ilanlarının paylaşıldığı bir uygulamadır. 2 tip kullanıcı bulunmaktadır. İşçi ve İşverene ayrı ayrı admin panelleri sunulmuştur. Ayrıca işçi ve işverenin iletişimi için her iş ilanı için özel chat grupları oluşturulacaktır.
 
