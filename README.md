@@ -5,9 +5,9 @@ Kullanılan Framework: Laravel
 
 Web uygulaması iş ilanlarının paylaşıldığı bir uygulamadır. 2 tip kullanıcı bulunmaktadır. İşçi ve İşverene ayrı ayrı admin panelleri sunulmuştur. Ayrıca işçi ve işverenin iletişimi için her iş ilanı için özel chat grupları oluşturulacaktır.
 
-*** Sistem geliştirilmeye devam etmektedir.
-Sisteme ait bazı ekran görüntüleri.
-Login Page
+*** Sistem geliştirilmeye devam etmektedir. <br>
+Sisteme ait bazı ekran görüntüleri.<br>
+Login Page<br>
 <img width="1680" alt="Ekran Resmi 2019-10-18 16 36 41" src="https://user-images.githubusercontent.com/53878581/67099587-ea67ca80-f1c6-11e9-944c-c7f5497cf537.png">
 
 Home Page
